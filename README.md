@@ -39,8 +39,8 @@
 
 #### Что вас ждет в нашей команде - общение, колаборация, полезное времяпровождение, новые друзья, заряд позитива от успеха в помощи каждому нужающемуся в лечении ребенку.
 
-#### Полезные ссылки:
-* Учебник на английском языке с примерами кода HTML, CSS, JavaScript: [w3schools.com](https://www.w3schools.com/).
+### Полезные ссылки:
+* [Учебник на английском языке с примерами кода HTML, CSS, JavaScript: w3schools](https://www.w3schools.com/).
 * [JavaScript - учебные материалы](https://developer.mozilla.org/ru/docs/Web/JavaScript)
 * [Дебагинг JavaScript](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Error)
 * [Правила оформления коммитов](https://praktikum.yandex.ru/learn/web/courses/35d951a1-b62c-4a96-96ac-a8118657fad0/sprints/3753/topics/69f49b9d-7d5c-41f4-8938-e81fee61e549/lessons/4fcc091e-e8f2-4a6e-8cad-de34038b438b/)

@@ -1,0 +1,15 @@
+.header {
+  margin: 24px 16px 24px 16px;
+  padding: 0;
+  width: auto;
+  height: 40px;
+  background: white;
+  display: grid;
+  grid-template-columns: auto auto 105px 1fr;
+  grid-template-rows: auto;
+  justify-content: start;
+  align-content: center;
+  align-items: start;
+  justify-items: start;
+
+}

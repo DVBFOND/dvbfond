@@ -1,12 +1,13 @@
-.section {
-  margin: 0;
+.article {
+  margin: 0 16px 64px 16px;
   padding: 0;
   width: auto;
+  height: 90vh;
   background: #79af5b;
   font-family: inherit;
   display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto;
   row-gap: 0;
   column-gap: 0;
   justify-content: center;

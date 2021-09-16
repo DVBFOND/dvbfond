@@ -1,9 +1,10 @@
 .header {
-  margin: 24px 16px 48px 16px;
+  margin: 12px 16px 12px 16px;
   padding: 0;
   width: auto;
   height: 40px;
   background: white;
+  font-family: inherit;
   display: grid;
   grid-template-columns: auto auto 105px 1fr;
   grid-template-rows: auto;

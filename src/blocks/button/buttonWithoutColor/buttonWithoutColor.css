@@ -1,0 +1,26 @@
+.buttonWithoutColor {
+  margin: 8px;
+  padding: 8px 16px;
+  width: 50vw;
+  height: 48px;
+  appearance: none;
+  border: 2px solid #ec6661;
+  border-radius: 25px;
+  background: white;
+  color: #ec6661;
+  font-size: 16px;
+  align-self: stretch;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.buttonWithoutColor:hover {
+  background: #ffd879;
+  color: white;
+  border: 0;
+}
+
+.buttonWithoutColor:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}

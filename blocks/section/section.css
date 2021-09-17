@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   width: auto;
-  background: #79af5b;
+  background: inherit;
   font-family: inherit;
   display: grid;
   grid-template-columns: 100vw;

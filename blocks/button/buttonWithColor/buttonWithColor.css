@@ -1,0 +1,30 @@
+.buttonWithColor {
+  margin: 8px;
+  padding: 8px 16px;
+  width: 80vw;
+  height: 48px;
+  appearance: none;
+  border: 0;
+  border-radius: 25px;
+  background: #ec6661;
+  font-family: inherit;
+  color: #fefefe;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-self: end;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.buttonWithColor:hover {
+  background: #ffd879;
+}
+
+.buttonWithColor:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}

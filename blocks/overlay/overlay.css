@@ -1,0 +1,27 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  overflow:hidden;
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #000000;
+  visibility: hidden;
+  /*visibility: visible;*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 0;
+  justify-content: center;
+  align-content: stretch;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlayIsOpened {
+  opacity: 1;
+}

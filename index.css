@@ -18,3 +18,13 @@
 @import url(./blocks/article/articleText/articleText.css);
 @import url(./blocks/button/buttonWithColor/buttonWithColor.css);
 @import url(./blocks/button/buttonWithoutColor/buttonWithoutColor.css);
+@import url(./blocks/overlay/overlay.css);
+@import url(./blocks/overlay/name/overlayMenuMobile.css);
+@import url(./blocks/overlay/isOpened/overlayIsOpened.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/popupButtonClose/popupButtonClose.css);
+@import url(./blocks/popup/popupNavigation/popupNavigation.css);
+@import url(./blocks/popup/popupListConteiner/popupListConteiner.css);
+@import url(./blocks/popup/popupListItem/popupListItem.css);
+@import url(./blocks/popup/popupListLink/popupListLink.css);
+@import url(./blocks/popup/popupContactList/popupContactList.css);

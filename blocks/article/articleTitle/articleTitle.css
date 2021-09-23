@@ -1,14 +1,14 @@
 .articleTitle {
   margin: 0;
   padding: 0;
-  max-width: 328px;
+  width: 80vw;
   height: auto;
   font-family: inherit;
   color: #252525;
-  font-size: 28px;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
+  line-height: 8vw;
   letter-spacing: 0em;
   text-align: center;
   align-self: center;

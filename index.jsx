@@ -83,6 +83,7 @@ class Main extends React.Component {
     return (
       <main className="main">
         <Section />
+        <HowToHelp />
       </main>
     );
   }
@@ -97,7 +98,7 @@ class Section extends React.Component {
     return (
       <section className="section">
         <ArticleOffer />
-        
+
       </section>
     );
   }
@@ -120,7 +121,19 @@ class ArticleOffer extends React.Component {
     );
   }
 }
-
+class HowToHelp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { howToHelpState: false };
+  }
+  render() {
+    return (
+      <section className="HowToHelp">
+        <h2>Как помочь</h2>
+      </section>
+    );
+  }
+}
 ReactDOM.render((
   <App />
 ), document.querySelector('#root'));

@@ -1,32 +1,30 @@
 .buttonWithColor {
-  margin: 8px;
-  padding: 8px 16px;
-  width: 80vw;
-  height: 10vw;
-  appearance: none;
-  border: 0;
-  border-radius: 8vw;
-  background: #ec6661;
-  font-family: inherit;
-  color: #fefefe;
-  font-size: 4vw;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 8vw;
-  letter-spacing: 0em;
-  text-align: center;
-  align-self: end;
-  justify-self: center;
-  cursor: pointer;
+    margin: 8px;
+    padding: 8px 16px;
+    width: 80vw;
+    height: 10vw;
+    appearance: none;
+    border: 0;
+    border-radius: 8vw;
+    background: #ec6661;
+    font-family: inherit;
+    color: #fefefe;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: end;
+    justify-self: center;
+    cursor: pointer;
 }
 
 .buttonWithColor:hover {
-  background: #cb4641;
+    background: #cb4641;
 }
 
 .buttonWithColor:focus {
-  background: #af3a36;
-  outline: none;
-  box-shadow: 0 0 0 4px #ec6661;
-  
+    background: #af3a36;
+    outline: none;
+    box-shadow: 0 0 0 4px #ec6661;
 }

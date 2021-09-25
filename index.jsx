@@ -83,6 +83,7 @@ class Main extends React.Component {
     return (
       <main className="main">
         <Section />
+        <HowToHelp />
       </main>
     );
   }
@@ -97,7 +98,7 @@ class Section extends React.Component {
     return (
       <section className="section">
         <ArticleOffer />
-        
+
       </section>
     );
   }
@@ -120,7 +121,24 @@ class ArticleOffer extends React.Component {
     );
   }
 }
-
+class HowToHelp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { howToHelpState: false };
+  }
+  render() {
+    return (
+      <section className="HowToHelp">
+        <h2 className="HowToHelpTitle">Как помочь</h2>
+        <div className="HowToHelpCard">
+          <img className="HowToHelpIcon" src="./images/hard.svg" />
+          <h3 className="HowToHelpCardTitle">Сделайте пожертвование</h3>
+          <p className="HowToHelpCardText">Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.</p>
+        </div>
+      </section>
+    );
+  }
+}
 ReactDOM.render((
   <App />
 ), document.querySelector('#root'));

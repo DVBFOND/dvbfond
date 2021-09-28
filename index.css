@@ -34,3 +34,7 @@
 @import url(./blocks/HowToHelp/HowToHelpIcon/HowToHelpIcon.css);
 @import url(./blocks/HowToHelp/HowToHelpCardTitle/HowToHelpCardTitle.css);
 @import url(./blocks/HowToHelp/HowToHelpCardText/HowToHelpCardText.css);
+@import url(./blocks/HowToHelp/HowToHelpButtons/HowToHelpButtons.css);
+@import url(./blocks/HowToHelp/HowToHelpButton/HowToHelpButton.css);
+@import url(./blocks/HowToHelp/HowToHelpButton/HowToHelpButtonLeft/HowToHelpButtonLeft.css);
+@import url(./blocks/HowToHelp/HowToHelpButton/HowToHelpButtonRight/HowToHelpButtonRight.css);

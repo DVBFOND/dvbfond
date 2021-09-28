@@ -135,6 +135,10 @@ class HowToHelp extends React.Component {
           <h3 className="HowToHelpCardTitle">Сделайте пожертвование</h3>
           <p className="HowToHelpCardText">Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.</p>
         </div>
+        <div className="HowToHelpButtons">
+          <button type="button" className="HowToHelpButton HowToHelpButtonLeft"></button>
+          <button type="button" className="HowToHelpButton HowToHelpButtonRight"></button>
+        </div>
       </section>
     );
   }

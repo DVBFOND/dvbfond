@@ -128,21 +128,59 @@ class HowToHelp extends React.Component {
   }
   render() {
     return (
-      <section className="HowToHelp">
-        <h2 className="HowToHelpTitle">Как помочь</h2>
-        <div className="HowToHelpCard">
-          <img className="HowToHelpIcon" src="./images/hard.svg" />
-          <h3 className="HowToHelpCardTitle">Сделайте пожертвование</h3>
-          <p className="HowToHelpCardText">Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.</p>
-        </div>
-        <div className="HowToHelpButtons">
-          <button type="button" className="HowToHelpButton HowToHelpButtonLeft"></button>
-          <button type="button" className="HowToHelpButton HowToHelpButtonRight"></button>
-        </div>
+      <section className="howToHelp">
+        <h2 className="howToHelpTitle">Как помочь</h2>
+        <Slider
+          <CardsHowToHelp />
+          />
       </section>
     );
   }
 }
+
+class Slider extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      sliderState: false
+    };
+  }
+
+  render() {
+    return (
+      <div className="slider">
+        <div className="sliderButtons">
+          <button className="sliderButton sliderButtonLeft"></button>
+          <button className="sliderButton sliderButtonRight"></button>
+        </div>
+      </div>
+      );
+    }
+}
+
+class CardsHowToHelp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cardsHowToHelpState: false
+    };
+  }
+  render() {
+    return (
+      <div className="sliderCards">
+        <div className="sliderCard">
+          <img className="sliderCardIcon" src="./images/hard.svg" />
+          <h3 className="sliderCardTitle">Сделайте пожертвование</h3>
+          <p className="sliderCardText">
+            Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.
+          </p>
+        </div>
+      </div>
+    )
+  }
+}
+
+//class
 ReactDOM.render((
   <App />
 ), document.querySelector('#root'));

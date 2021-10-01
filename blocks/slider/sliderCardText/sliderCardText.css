@@ -2,10 +2,15 @@
     font-size: 18px;
     line-height: 27px;
     max-width: 280px;
-    margin: 16px auto 0;
     text-align: center;
 }
 
 .howToHelp .sliderCardText {
     max-width: 280px;
+    margin: 16px auto 0;
+}
+
+.steps .sliderCardText {
+    max-width: 304px;
+    margin: 32px auto 0;
 }

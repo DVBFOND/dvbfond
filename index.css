@@ -4,6 +4,7 @@
 @import url(./blocks/noscript/noscript.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/app/App.css);
+@import url(./blocks/blockTitle/blockTitle.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/headerLogoLeft/headerLogoLeft.css);
 @import url(./blocks/header/headerVertikalLine/headerVertikalLine.css);
@@ -29,7 +30,6 @@
 @import url(./blocks/popup/popupListLink/popupListLink.css);
 @import url(./blocks/popup/popupContactList/popupContactList.css);
 @import url(./blocks/HowToHelp/HowToHelp.css);
-@import url(./blocks/HowToHelp/HowToHelpTitle/HowToHelpTitle.css);
 @import url(./blocks/slider/slider.css);
 @import url(./blocks/slider/sliderButton/sliderButton.css);
 @import url(./blocks/slider/sliderButton/sliderButtonLeft/sliderButtonLeft.css);
@@ -39,3 +39,4 @@
 @import url(./blocks/slider/sliderCardIcon/sliderCardIcon.css);
 @import url(./blocks/slider/sliderCardText/sliderCardText.css);
 @import url(./blocks/slider/sliderCardTitle/sliderCardTitle.css);
+@import url(./blocks/steps/steps.css);

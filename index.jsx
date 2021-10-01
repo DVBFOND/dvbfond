@@ -84,6 +84,7 @@ class Main extends React.Component {
       <main className="main">
         <Section />
         <HowToHelp />
+        <Steps />
       </main>
     );
   }
@@ -129,16 +130,14 @@ class HowToHelp extends React.Component {
   render() {
     return (
       <section className="howToHelp">
-        <h2 className="howToHelpTitle">Как помочь</h2>
-        <Slider
-          <CardsHowToHelp />
-          />
+        <h2 className="blockTitle">Как помочь</h2>
+        <SliderHowToHelp />
       </section>
     );
   }
 }
 
-class Slider extends React.Component {
+class SliderHowToHelp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -149,6 +148,15 @@ class Slider extends React.Component {
   render() {
     return (
       <div className="slider">
+        <div className="sliderCards">
+          <div className="sliderCard">
+            <img className="sliderCardIcon" src="./images/hard.svg" />
+            <h3 className="sliderCardTitle">Сделайте пожертвование</h3>
+            <p className="sliderCardText">
+              Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.
+            </p>
+          </div>
+        </div>
         <div className="sliderButtons">
           <button className="sliderButton sliderButtonLeft"></button>
           <button className="sliderButton sliderButtonRight"></button>
@@ -158,28 +166,52 @@ class Slider extends React.Component {
     }
 }
 
-class CardsHowToHelp extends React.Component {
+class Steps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      cardsHowToHelpState: false
+      StepsState: false
     };
   }
+
   render() {
     return (
-      <div className="sliderCards">
-        <div className="sliderCard">
-          <img className="sliderCardIcon" src="./images/hard.svg" />
-          <h3 className="sliderCardTitle">Сделайте пожертвование</h3>
-          <p className="sliderCardText">
-            Любая сумма поможет оплатить дорогостоящее лечение тяжело больным детям.
-          </p>
-        </div>
-      </div>
-    )
+      <section className="steps">
+        <h2 className="blockTitle">Как мы работаем:</h2>
+        <SliderSteps />
+      </section>
+    );
   }
 }
 
+
+class SliderSteps extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      sliderState: false
+    };
+  }
+
+  render() {
+    return (
+      <div className="slider">
+        <div className="sliderCards">
+          <div className="sliderCard">
+            <img className="sliderCardIcon" src="./images/first_step.svg" />
+            <p className="sliderCardText">
+              Принимаем от вас обращение на помощь. Проводим сбор и проверку необходимых документов.
+            </p>
+          </div>
+        </div>
+        <div className="sliderButtons">
+          <button className="sliderButton sliderButtonLeft"></button>
+          <button className="sliderButton sliderButtonRight"></button>
+        </div>
+      </div>
+      );
+    }
+}
 //class
 ReactDOM.render((
   <App />

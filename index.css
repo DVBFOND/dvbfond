@@ -5,6 +5,7 @@
 @import url(./blocks/root/root.css);
 @import url(./blocks/app/App.css);
 @import url(./blocks/blockTitle/blockTitle.css);
+@import url(./blocks/blockDescription/blockDescription.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/headerLogoLeft/headerLogoLeft.css);
 @import url(./blocks/header/headerVertikalLine/headerVertikalLine.css);
@@ -40,3 +41,8 @@
 @import url(./blocks/slider/sliderCardText/sliderCardText.css);
 @import url(./blocks/slider/sliderCardTitle/sliderCardTitle.css);
 @import url(./blocks/steps/steps.css);
+@import url(./blocks/slider/sliderAuthor/sliderAuthor.css);
+@import url(./blocks/slider/sliderAuthorImage/sliderAuthorImage.css);
+@import url(./blocks/slider/sliderAuthorName/sliderAuthorName.css);
+@import url(./blocks/slider/sliderAuthorDescription/sliderAuthorDescription.css);
+@import url(./blocks/authors/authors.css);

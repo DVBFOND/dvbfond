@@ -85,6 +85,7 @@ class Main extends React.Component {
         <Section />
         <HowToHelp />
         <Steps />
+        <Authors />
       </main>
     );
   }
@@ -184,6 +185,24 @@ class Steps extends React.Component {
   }
 }
 
+class Authors extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      AuthorsState: false
+    };
+  }
+
+  render() {
+    return (
+      <section className="authors">
+        <h2 className="blockTitle">Наша команда:</h2>
+        <p className="blockDescription">Наша цель - помочь больным детям</p>
+        <SliderAuthors />
+      </section>
+    );
+  }
+}
 
 class SliderSteps extends React.Component {
   constructor(props) {
@@ -211,6 +230,35 @@ class SliderSteps extends React.Component {
       </div>
       );
     }
+}
+
+class SliderAuthors extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      SliderAuthorsState: false
+    }
+  }
+
+  render() {
+    return (
+      <div className="slider">
+      <div className="sliderCards">
+        <div className="sliderAuthor">
+          <img src="./images/alex.jpg" className="sliderAuthorImage" />
+          <h3 className="sliderAuthorName">Мясоед Александр</h3>
+          <p className="sliderAuthorDescription">
+            IT-волонтёр Веб-разработчик
+          </p>
+        </div>
+      </div>
+      <div className="sliderButtons">
+        <button className="sliderButton sliderButtonLeft"></button>
+        <button className="sliderButton sliderButtonRight"></button>
+      </div>
+    </div>
+    );
+  }
 }
 //class
 ReactDOM.render((

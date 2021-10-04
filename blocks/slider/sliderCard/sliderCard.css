@@ -1,0 +1,16 @@
+.sliderCard {
+    width: 320px;
+    padding: 47px 0 36px 0;
+    margin: 32px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.howToHelp .sliderCard {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 16px;
+}
+
+.steps .sliderCard {
+    padding: 0;
+}

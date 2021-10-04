@@ -1,0 +1,13 @@
+.getHelpStep {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.getHelpStep:first-of-type {
+    margin: 40px auto 0;
+}
+
+.getHelpStep:last-child {
+    margin: 20px auto 0;
+}

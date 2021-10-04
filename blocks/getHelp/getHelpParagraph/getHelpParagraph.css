@@ -1,0 +1,11 @@
+.getHelpParagraph {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+
+.getHelpParagraph:first-of-type {
+    width: 320px;
+    margin: 20px auto 0;
+}

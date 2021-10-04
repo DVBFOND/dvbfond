@@ -303,9 +303,9 @@ class CanYouHelp extends React.Component {
 
         <div className="youCanHelpContainer">
           <img className="youCanHelpIcon" src="./images/1.svg" alt="Не удалось загрузить изображение" />
-          <h3 className="youCanHelpContainerTitle">Сделайте пожертвование</h3>
+          <h3 className="youCanHelpContainerTitle">Станьте волонтёром</h3>
           <p className="youCanHelpText">
-            Объединившись вместе, мы сможем подарить надежду детям с тяжелыми заболеваниями и каждый Ваш рубль дает шанс на выздоровление.
+            Помогать можно не только деньгами, любая помощь всегда нужна. Станьте волонтером фонда и будем погать вместе.
           </p>
           <button className="youCanHelpButton youCanHelpButtonTypeVolunteer">
             Стать волонтёром
